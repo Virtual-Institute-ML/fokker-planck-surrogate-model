@@ -283,9 +283,6 @@ The blue curves are read directly from the held-out FP solver dataset; the dashe
 
 Version 1.1 is a proof-of-concept surrogate for the parameterized equation and domain described above. It should not be assumed to generalize to different transport operators, boundary conditions, initial distributions, or parameter ranges without retraining and validation.
 
-## Citation
-
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff). If you use this project in academic work, please cite the VIML Fokker–Planck Surrogate project and any associated paper/project documentation released later.
 
 ## License
 
