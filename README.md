@@ -10,28 +10,32 @@ A compact scientific-ML workflow for solving a parameterized one-dimensional Fok
 
 The numerical solver evolves
 
-\[
+$$
 \frac{\partial f}{\partial t}
 = -\frac{\partial}{\partial v}\left[A(v)f\right]
 + \frac{\partial}{\partial v}\left[D(v)\frac{\partial f}{\partial v}\right]
-+ \nu_{\rm coll}\left(f_{\rm eq}-f\right),
-\]
++ \nu_{\mathrm{coll}}\left(f_{\mathrm{eq}}-f\right),
+$$
 
 on a uniform velocity grid with zero-flux boundaries. The solver uses a conservative Chang–Cooper discretization for the transport operator and an exact BGK relaxation step for the collision term.
 
+![Example time evolution of the numerical Fokker–Planck solution](figures/fp_time_evolution.png)
+
+*Example time evolution of $f(v,t)$ produced by the numerical solver.*
+
 The v1.1 surrogate dataset uses
 
-\[
+$$
 A(v)=0,
 \qquad
 D(v)=D_0\left(1+0.1v^2\right),
-\]
+$$
 
 with a unit-normalized Maxwellian for both the initial and equilibrium distributions,
 
-\[
-f(v,0)=f_{\rm eq}(v)=\mathcal{M}(v;\sigma_0).
-\]
+$$
+f(v,0)=f_{\mathrm{eq}}(v)=\mathcal{M}(v;\sigma_0).
+$$
 
 The sampled physical parameters are
 
@@ -57,15 +61,15 @@ The project is organized as a reproducible sequence:
 
 The residual model uses
 
-\[
-z(t)=z_0(\sigma_0)+\frac{t}{t_{\max}}\,g(D_0,\nu_{\rm coll},\sigma_0,t),
-\]
+$$
+z(t)=z_0(\sigma_0)+\frac{t}{t_{\max}}\,g(D_0,\nu_{\mathrm{coll}},\sigma_0,t),
+$$
 
 where `z` denotes the 16 retained PCA coefficients and `z0(sigma0)` is computed directly by projecting the exact initial Maxwellian onto the PCA basis. Therefore
 
-\[
+$$
 z(0)=z_0(\sigma_0)
-\]
+$$
 
 is satisfied by construction rather than learned approximately from data.
 
@@ -124,8 +128,8 @@ Generated HDF5 datasets, PCA models, prediction arrays, and training outputs are
 Python 3.10 or newer is recommended.
 
 ```bash
-git clone https://github.com/Virtual-Institute-ML/viml-fokker-planck.git
-cd viml-fokker-planck
+git clone https://github.com/Virtual-Institute-ML/fokker-planck-surrogate-model.git
+cd fokker-planck-surrogate-model
 
 python3 -m venv .venv
 source .venv/bin/activate
@@ -225,9 +229,9 @@ python -m dataset.prepare_ml_dataset \
 
 The MLP input is
 
-\[
-(\log_{10}D_0,\;\log_{10}\nu_{\rm coll},\;\sigma_0,\;t),
-\]
+$$
+(\log_{10}D_0,\;\log_{10}\nu_{\mathrm{coll}},\;\sigma_0,\;t),
+$$
 
 and both inputs and PCA targets are standardized using statistics from the training split only.
 
