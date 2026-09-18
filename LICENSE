@@ -1,0 +1,209 @@
+VIML Research and Non-Commercial License
+Version 1.0, 2026
+
+Copyright (c) 2026 Ji-Hoon Ha
+Virtual Institute for Machine Learning (VIML)
+
+All rights reserved except as expressly granted under this License.
+
+
+1. PURPOSE
+
+This License permits the use, study, modification, and redistribution of
+software, machine-learning models, trained weights, checkpoints,
+documentation, and related materials released by the Virtual Institute
+for Machine Learning (VIML) for research, educational, personal, and
+other non-commercial purposes.
+
+Commercial rights are reserved by the copyright holder.
+
+
+2. DEFINITIONS
+
+"Materials" means the source code, executable code, scripts,
+configuration files, documentation, datasets where applicable,
+machine-learning models, trained parameters, weights, checkpoints,
+and other files distributed under this License.
+
+"Non-Commercial Use" means use primarily intended for:
+
+- academic or scientific research;
+- education or teaching;
+- personal study or experimentation;
+- evaluation or demonstration;
+- non-profit projects that do not generate commercial advantage
+  or monetary compensation.
+
+"Commercial Use" includes, but is not limited to:
+
+- selling or licensing the Materials;
+- using the Materials in a paid product or service;
+- providing paid access to software or services based substantially
+  on the Materials;
+- incorporating the Materials into a commercial application,
+  platform, game, API, or service;
+- using the Materials primarily to generate revenue, commercial
+  advantage, or business value.
+
+
+3. PERMITTED USES
+
+Subject to the terms of this License, you are granted a limited,
+non-exclusive, worldwide, royalty-free license to:
+
+a. use the Materials for Non-Commercial Use;
+
+b. study, inspect, test, and evaluate the Materials;
+
+c. modify the Materials for Non-Commercial Use;
+
+d. use the Materials for academic or scientific research;
+
+e. use the Materials for educational or teaching purposes;
+
+f. publish research results obtained using the Materials, provided
+   reasonable attribution is given.
+
+
+4. REDISTRIBUTION
+
+You may redistribute copies of the Materials, including modified
+versions, solely for Non-Commercial Use, provided that:
+
+a. this License is included with the redistributed Materials;
+
+b. all copyright and attribution notices are retained;
+
+c. modified versions are clearly identified as modified;
+
+d. reasonable attribution is given to the original VIML project;
+
+e. you do not imply endorsement, sponsorship, or affiliation with
+   VIML or the copyright holder;
+
+f. you do not impose terms that would permit Commercial Use of the
+   Materials contrary to this License.
+
+
+5. COMMERCIAL USE
+
+Commercial Use is NOT granted under this License.
+
+Any individual, company, organization, or other entity wishing to use
+the Materials for Commercial Use must obtain separate written permission
+or a separate commercial license from the copyright holder.
+
+The copyright holder reserves the right to offer the same or similar
+Materials under separate commercial or alternative licensing terms.
+
+
+6. ATTRIBUTION
+
+Projects, publications, demonstrations, websites, or other works that
+use or redistribute the Materials must provide reasonable attribution
+to:
+
+Virtual Institute for Machine Learning (VIML)
+
+and, where practical, include a reference to the original project
+repository.
+
+Academic publications should cite the associated publication or project
+documentation if citation information is provided by VIML.
+
+
+7. MACHINE-LEARNING MODELS AND CHECKPOINTS
+
+Unless explicitly stated otherwise, trained machine-learning models,
+weights, parameters, and checkpoints distributed with a VIML project
+are covered by this License.
+
+Access to a model or checkpoint does not grant permission to:
+
+- sell the model or checkpoint;
+- provide paid access to the model;
+- use the model as part of a commercial service;
+- incorporate the model into a commercial product;
+
+without separate written authorization from the copyright holder.
+
+
+8. VIML NAME, BRANDING, AND INTELLECTUAL PROPERTY
+
+This License does not grant any rights to use the VIML name, logo,
+branding, trademarks, or other identifying marks in a manner that
+suggests endorsement, sponsorship, or official affiliation.
+
+Original VIML game designs, artwork, characters, logos, and other
+intellectual property are not licensed for commercial use unless
+explicitly stated otherwise.
+
+
+9. THIRD-PARTY MATERIALS
+
+This License applies only to Materials for which the copyright holder
+has authority to grant rights.
+
+Third-party software, libraries, game names, artwork, datasets,
+trademarks, or other intellectual property remain subject to their
+respective licenses and rights.
+
+Nothing in this License grants rights to third-party intellectual
+property.
+
+
+10. NO PATENT OR TRADEMARK LICENSE
+
+Except for the copyright permissions expressly granted by this License,
+no patent, trademark, trade name, or other intellectual-property rights
+are granted, whether expressly or by implication.
+
+
+11. DISCLAIMER OF WARRANTY
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY,
+RELIABILITY, OR NON-INFRINGEMENT.
+
+USE OF THE MATERIALS IS AT YOUR OWN RISK.
+
+
+12. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER
+SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, LOSSES, OR OTHER LIABILITY
+ARISING FROM OR RELATED TO THE MATERIALS OR THEIR USE.
+
+
+13. TERMINATION
+
+Your rights under this License terminate automatically if you materially
+violate its terms.
+
+Upon termination, you must cease exercising the rights granted under
+this License.
+
+Termination does not affect rights or remedies that may have arisen
+before termination.
+
+
+14. SEPARATE AGREEMENTS
+
+Nothing in this License prevents the copyright holder from:
+
+- using the Materials commercially;
+- licensing the Materials to others under different terms;
+- developing commercial products based on the Materials;
+- releasing future versions under different licenses.
+
+
+15. LICENSE VERSION
+
+This is version 1.0 of the VIML Research and Non-Commercial License.
+
+Unless explicitly stated otherwise, Materials remain governed by the
+version of the License under which they were originally released.
+
+
+END OF TERMS

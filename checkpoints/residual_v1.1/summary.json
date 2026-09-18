@@ -1,0 +1,41 @@
+{
+  "device": "cuda",
+  "trainable_parameters": 134416,
+  "best_epoch": 294,
+  "best_validation_mse_scaled_residual": 0.00016475855676457285,
+  "test_relative_l1_all": {
+    "median": 0.0016774031835920732,
+    "p95": 0.006101229821703589,
+    "max": 0.02510127885748999
+  },
+  "test_relative_l1_t_positive": {
+    "median": 0.0017147548408652695,
+    "p95": 0.006130802592432268,
+    "max": 0.02510127885748999
+  },
+  "test_relative_l1_t0": {
+    "median": 2.3813720935617454e-08,
+    "p95": 5.003642250832787e-08,
+    "max": 8.22860701281281e-08
+  },
+  "test_relative_l2_all": {
+    "median": 0.001371358751542377,
+    "p95": 0.005641977942815562,
+    "max": 0.021727626088825547
+  },
+  "minimum_predicted_f": -0.002396190972502113,
+  "fraction_negative_f_values": 0.06136843137254902,
+  "t_max": 5.0,
+  "formulation": "z(t)=z0(sigma0)+(t/t_max)*g(theta,t)",
+  "architecture": {
+    "input_dim": 4,
+    "hidden_dims": [
+      128,
+      256,
+      256,
+      128
+    ],
+    "output_dim": 16,
+    "activation": "gelu"
+  }
+}
