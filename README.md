@@ -4,7 +4,13 @@
 
 A compact scientific-ML workflow for solving a parameterized one-dimensional Fokker–Planck equation, compressing its solution manifold with PCA, and learning a fast neural surrogate. Version 1.1 includes an initial-condition-aware residual MLP that reproduces held-out solver solutions at approximately the `10^-3` relative-`L1` level across the sampled domain while enforcing the initial condition by construction.
 
-![Held-out Fokker–Planck solver solutions compared with the residual ML surrogate](figures/prediction_examples_4.png)
+<p align="center">
+  <img src="figures/prediction_examples_4.png" width="1000">
+</p>
+
+<p align="center">
+  <em>Held-out Fokker–Planck solver solutions compared with the residual ML surrogate.</em>
+</p>
 
 ## Overview
 
@@ -16,9 +22,13 @@ $$
 
 on a uniform velocity grid with zero-flux boundaries. The solver uses a conservative Chang–Cooper discretization for the transport operator and an exact BGK relaxation step for the collision term.
 
-![Example time evolution of the numerical Fokker–Planck solution](figures/fp_time_evolution.png)
+<p align="center">
+  <img src="figures/fp_time_evolution.png" width="850">
+</p>
 
-*Example time evolution of $f(v,t)$ produced by the numerical solver.*
+<p align="center">
+  <em>Example time evolution of the distribution function f(v,t) produced by the numerical solver.</em>
+</p>
 
 The v1.1 surrogate dataset uses
 
