@@ -11,10 +11,7 @@ A compact scientific-ML workflow for solving a parameterized one-dimensional Fok
 The numerical solver evolves
 
 $$
-\frac{\partial f}{\partial t}
-= -\frac{\partial}{\partial v}\left[A(v)f\right]
-+ \frac{\partial}{\partial v}\left[D(v)\frac{\partial f}{\partial v}\right]
-+ \nu_{\mathrm{coll}}\left(f_{\mathrm{eq}}-f\right),
+\frac{\partial f}{\partial t}= -\frac{\partial}{\partial v}\left[A(v)f\right]+ \frac{\partial}{\partial v}\left[D(v)\frac{\partial f}{\partial v}\right]+ \nu_{\mathrm{coll}}\left(f_{\mathrm{eq}}-f\right),
 $$
 
 on a uniform velocity grid with zero-flux boundaries. The solver uses a conservative Chang–Cooper discretization for the transport operator and an exact BGK relaxation step for the collision term.
